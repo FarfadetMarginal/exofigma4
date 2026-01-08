@@ -42,7 +42,7 @@ color: #0D1C12;
 /* ↑↑↑ ça c tout les styles que g pu mettre à tout / toute une catégorie, class etc. ensuite on passe au placement + style du header↓↓↓ */
 
 header{
-
+    max-width: 960px;
     display: flex;
     margin: auto;
     justify-content: space-between;
@@ -55,7 +55,12 @@ header{
     gap: 15px;
 }
 
-header button{
+#hr1t1 a{
+
+    text-decoration: none;
+}
+
+#login{
 
 font-family: Newsreader;
 font-weight: 700;
@@ -67,12 +72,16 @@ padding: 16px;
 border-radius: 20px;
 background-color: #E8F2ED;
 border-width: 0px;
-
+text-decoration: none;
+padding: 11px;
 width: 84px;
-height: 40px;
-text-box-trim: trim-both;
-
+text-align: center;
+width: 84px;
+max-block-size: fit-content;
+padding: 10px 2px;
 }
+
+
 
 /* le text trim both jsp cque c mais c le seul truc qui me centre le texte ds le bouton */
 
@@ -339,17 +348,17 @@ justify-self: center;
 
 }
 
-#s1d1{
-
-padding: 15px;
-}
 
 
 }
 
 
 @media screen and (max-width :748px) {
-
+    
+    #s1d1{
+    
+    padding: 15px;
+    }
 
 #s2 img{
 
