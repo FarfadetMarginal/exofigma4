@@ -206,3 +206,91 @@ mix-blend-mode: overlay;
 }
 
 
+
+/*↑↑↑ bon g pas trouvé comment bien le placer sans utiliser du gros padding mais bon tant pis on start la section 2↓↓↓ */
+
+
+#s2{
+
+    width: 960px;
+    justify-self: center;
+    margin-bottom: 70px;
+}
+
+#s2 h2{
+
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: -0.8px;
+padding: 30px 0;
+
+}
+
+
+.s2a1 {
+
+    display: flex;
+    margin: 30px auto;
+}
+
+
+
+#s2 img {
+
+    width: 455.859375px;
+    height: 256.40625px;
+     border-radius: 12px;
+    object-fit: none;
+}
+
+#s2 h3{
+
+font-weight: 700;
+font-size: 18px;
+line-height: 22.5px;
+letter-spacing: -0.27px;
+padding: 10px 0;
+
+}
+
+#s2 p{
+
+
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #4F966E;
+
+}
+
+.s2d1{
+
+    padding: 10px;
+}
+
+#s2 a{
+
+padding: 10px;
+padding-right: 20px;
+padding-left: 20px;
+border-radius: 24px;
+background-color: #1AE570;
+color: black;
+text-decoration: none;
+font-weight: 700;
+display: block;
+margin: 15px;
+height: fit-content;
+min-width: max-content;
+place-self: flex-end;
+
+}
+
+#s2 a:hover {
+background-color: #0D1C12;
+color: #1AE570;
+
+}
+
