@@ -42,11 +42,19 @@ color: #0D1C12;
 /* ↑↑↑ ça c tout les styles que g pu mettre à tout / toute une catégorie, class etc. ensuite on passe au placement + style du header↓↓↓ */
 
 header{
-    max-width: 960px;
+    max-width: 1440px;
     display: flex;
     margin: auto;
     justify-content: space-between;
     padding: 30px;
+}
+
+
+header{
+
+        border-bottom: solid;
+    border-width: 1px;
+    border-color: #0000002d;
 }
 
 #hr1d1{
@@ -186,6 +194,7 @@ justify-self: anchor-center;
     border-radius: 12px;
     height: -webkit-fill-available;
 
+
 }
 
 #s1 p{
@@ -204,6 +213,7 @@ justify-self: center;
 #s1d1{
 padding: 40px;
 padding-top: 250px;
+margin-top: 40px;
 }
 
 #s1 a{
