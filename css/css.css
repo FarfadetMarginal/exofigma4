@@ -174,8 +174,19 @@ justify-self: anchor-center;
     height: 512px;
     justify-self: center;
     border-radius: 12px;
+    
 }
 
+#s1d1{
+    
+    
+    background-color: rgba(0, 0, 0, 0.218);
+    height: 100%;
+    justify-self: center;
+    border-radius: 12px;
+    height: -webkit-fill-available;
+
+}
 
 #s1 p{
 
