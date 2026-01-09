@@ -81,7 +81,10 @@ max-block-size: fit-content;
 padding: 10px 2px;
 }
 
-
+header button{
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
 
 /* le text trim both jsp cque c mais c le seul truc qui me centre le texte ds le bouton */
 
