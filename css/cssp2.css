@@ -65,7 +65,7 @@ header{
 #hr1d1{
 
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 #hr1t1 a{
@@ -73,7 +73,7 @@ header{
     text-decoration: none;
 }
 
-#login{
+#logout{
 
 font-family: Newsreader;
 font-weight: 700;
@@ -94,14 +94,38 @@ max-block-size: fit-content;
 padding: 10px 2px;
 }
 
-header button{
-    background-color: rgba(0, 0, 0, 0);
-    border-width: 0;
+header img{
+
+width: 40px;
+height: 40px;
+border-radius: 20px;
+object-fit: cover;
+}
+
+header a{
+
+    font-family: Newsreader;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.21px;
+color: #0D1C12;
+text-decoration: none;
+list-style: none;
+}
+
+header ul{
+display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav{
+
+  align-content: space-evenly;
 }
 
 
-
-/* le text trim both jsp cque c mais c le seul truc qui me centre le texte ds le bouton */
 
 #divsearch{
 
