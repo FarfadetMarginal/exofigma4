@@ -67,7 +67,7 @@ header{
     text-decoration: none;
 }
 
-#signup{
+#signin{
 
 font-family: Newsreader;
 font-weight: 700;
@@ -230,7 +230,7 @@ letter-spacing: 0.21px;
 border-width: 0;
 }
 
-#boutonsignin{
+#boutonsignup{
 
     background-color: #1AE570;
 }
@@ -239,6 +239,7 @@ main p{
 
     padding-bottom: 20px;
 }
+
 
 main a{
 
@@ -256,8 +257,3 @@ text-decoration: none;
 text-align: center;
 
 }
-
-
-
-
-
