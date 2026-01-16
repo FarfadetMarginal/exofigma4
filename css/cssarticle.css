@@ -362,3 +362,17 @@ border-width: 0;
 
 
 
+header img:hover{
+    transform: scale(1.7);
+}
+
+
+
+
+footer i:hover{
+     transform: scale(1.7);
+}
+
+#logout:hover{
+    background-color: #1AE570;
+}

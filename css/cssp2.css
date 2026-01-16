@@ -350,3 +350,24 @@ main{
 
     padding-bottom: 50px;
 }
+
+header img:hover{
+    transform: scale(1.7);
+}
+
+footer i:hover{
+     transform: scale(1.7);
+}
+#logout:hover{
+    background-color: #1AE570;
+}
+
+.divbouton button:hover{
+    background-image: url(../img/af72556ef0db51a0818c6b7dd441127632dc705e.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    color: #FFFFFF;
+    background-blend-mode:darken;
+}
+

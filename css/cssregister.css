@@ -257,3 +257,23 @@ text-decoration: none;
 text-align: center;
 
 }
+
+footer i:hover{
+     transform: scale(1.7);
+}
+
+
+#boutonsignup:hover{
+ background-color:#E8F2ED;
+transform:scaleX(1.2);
+}
+
+main a:hover{
+     background-color:#1AE570;
+transform:scaleX(1.2);
+}
+
+#signin:hover{
+
+    background-color:#E8F2ED; 
+}
