@@ -175,14 +175,22 @@ justify-self: anchor-center;
 }
 
 #s1{
-    background-image: url(../img/af72556ef0db51a0818c6b7dd441127632dc705e.png);
+    /* background-image: url(../img/af72556ef0db51a0818c6b7dd441127632dc705e.png); */
     background-repeat: no-repeat;
     background-size: cover;
     width: 960px;
     height: 512px;
     justify-self: center;
     border-radius: 12px;
-    
+    animation: fondu 15s ease-in-out infinite both;
+}
+
+@keyframes fondu{
+
+    0%{background-image :url(../img/af72556ef0db51a0818c6b7dd441127632dc705e.png) }
+    33%{background-image: url(../img/64beb2101f6ca689f98946c1fffcef41ed38b15b.png);}
+    66%{background-image:url(../img/n4ciw0b0vgpe1.jpeg) }
+    100%{background-image: url(../img/af72556ef0db51a0818c6b7dd441127632dc705e.png);}
 }
 
 #s1d1{
